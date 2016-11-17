@@ -804,7 +804,7 @@
                 );
                 this.element.trigger('change');
             } else if(this.element.is('input')) {
-                this.element.val(this.endDate.format(this.format));
+                this.element.val(this.startDate.format(this.format));
                 this.element.trigger('change');
             }
         },
